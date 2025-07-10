@@ -1,13 +1,16 @@
 {
-  "name": "desafio-dio-shopee-cart",
+  "name": "simple-shopping-cart",
   "version": "1.0.0",
+  "description": "A simple scalable shopping cart API",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
